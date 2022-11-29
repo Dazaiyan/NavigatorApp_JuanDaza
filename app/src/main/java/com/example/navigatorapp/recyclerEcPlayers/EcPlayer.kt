@@ -1,10 +1,3 @@
 package com.example.navigatorapp.recyclerEcPlayers
 
-data class EcPlayer(
-    val playerName:String,
-    val position:String,
-    val team:String,
-    val age:Int,
-    val number:Int,
-    val photo:String
-)
+data class EcPlayer(val nombre:String, val caras:Int, val colores:Int, val imagen:String)
